@@ -55,7 +55,8 @@ html {
 
   p {
     margin-top: 1.5rem;
-    color: ($transparent-white)
+    color: ($transparent-white);
+    height: 15vh;
   }
 
   img {
@@ -182,5 +183,12 @@ html {
 @media (min-width: 1439px) {
   .cards {
     max-width: 75vw;
+
+    p {
+      height: 12vh;
+    }
   }
+
+
+
 }

@@ -33,7 +33,8 @@ body {
     color: #f2f2f2; }
   .cards p {
     margin-top: 1.5rem;
-    color: rgba(255, 255, 255, 0.6); }
+    color: rgba(255, 255, 255, 0.6);
+    height: 15vh; }
   .cards img {
     margin-top: 2rem; }
 
@@ -118,7 +119,7 @@ body {
 @media (min-width: 1023px) {
   .cards {
     display: flex;
-    max-width: 80vw; }
+    width: 80vw; }
     .cards h2 {
       font-size: 2rem; }
     .cards p {
@@ -136,6 +137,8 @@ body {
     font-size: 1rem; } }
 @media (min-width: 1439px) {
   .cards {
-    max-width: 75vw; } }
+    max-width: 75vw; }
+    .cards p {
+      height: 12vh; } }
 
 /*# sourceMappingURL=style.css.map */
