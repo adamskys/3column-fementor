@@ -16,7 +16,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ## Overview
 
 I've learned how to build easy 3-column component. I've used SASS for the first time and I hope that code doesn't look that bad.
-I've struggled with button positioning and I'd need to fix that (tips on that would be helpful).
+I've struggled with button positioning when resizing window and I'd need to fix that (tips on that would be helpful).
 
 ### The challenge
 
@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-Creating easy component using partially SASS.
+Creating easy component using SASS (partially).
 
 ### Continued development
 
