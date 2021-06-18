@@ -55,8 +55,8 @@ html {
 
   p {
     margin-top: 1.5rem;
+    padding-bottom: 1rem;
     color: ($transparent-white);
-    height: 15vh;
   }
 
   img {
@@ -131,6 +131,8 @@ html {
 
 @media (min-width: 767px) {
   .cards {
+    width: 55vw;
+
     h2 {
       font-size: 3.5rem;
     }
@@ -159,7 +161,8 @@ html {
     }
 
     p {
-      font-size: 1rem;
+      font-size: 1.1rem;
+      // padding-bottom: 2rem;
     }
 
     img {
@@ -183,12 +186,11 @@ html {
 @media (min-width: 1439px) {
   .cards {
     max-width: 75vw;
-
-    p {
-      height: 12vh;
-    }
   }
 
+  p {
+    height: 13vh;
+  }
 
 
 }
